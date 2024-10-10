@@ -1,0 +1,71 @@
+@font-face{
+    font-family: "digitalFont";
+    src: url('digital-7.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("math_background.jpg");
+}
+#container{
+    height: 400px;
+    width: 300px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0 0 5px black;
+}
+#display{
+    font-family: "digitalFont";
+    width: 90%;
+    padding: 15px;
+    height: 15%;
+    margin-bottom: 5px;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(211, 211, 211);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.514);
+    background: linear-gradient(rgb(55, 114, 55), rgb(77, 110, 77));
+}
+#keys{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr);
+    grid-gap: 5px;
+}
+#keys button{
+    width: 70px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background: linear-gradient(rgb(131, 131, 131), rgb(87, 87, 87));
+}
+.btn:active{
+    background: linear-gradient(rgb(156, 156, 156), rgb(116, 116, 116));
+}
+.btn{
+    background: linear-gradient(rgb(110, 110, 110), rgb(58, 58, 58));
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+.operator-btn{
+    background: linear-gradient(rgb(69, 192, 69), rgb(37, 88, 37));
+}
+.operator-btn:hover{
+    background: linear-gradient(rgb(77, 216, 77), rgb(52, 124, 52));
+}
+.operator-btn:active{
+    background: linear-gradient(rgb(81, 226, 81), rgb(54, 129, 54));
+}

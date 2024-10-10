@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quizApp.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="display">Quiz App</h1>
+        <div class="question">
+            <p>1. Which planet is known as the "Red Planet"?</p>
+            <ul>
+                <li>
+                    <input type="radio" name="q1" value="venus" id="venus">
+                    <label for="venus">Venus</label>
+                </li>
+                <li>
+                    <input type="radio" name="q1" value="mars" id="mars">
+                    <label for="mars">Mars</label>
+                </li>
+                <li>
+                    <input type="radio" name="q1" value="jupiter" id="jupiter">
+                    <label for="jupiter">Jupiter</label>
+                </li>
+                <li>
+                    <input type="radio" name="q1" value="mercury" id="mercury">
+                    <label for="mercury">Mercury</label>
+                </li>
+            </ul>
+            <p>2. What is the primary gas in Earth's atmosphere?</p>
+            <ul>
+                <li>
+                    <input type="radio" name="q2" value="oxygen" id="oxygen">
+                    <label for="oxygen">Oxygen</label>
+                </li>
+                <li>
+                    <input type="radio" name="q2" value="carbon_dioxide" id="carbon_dioxide">
+                    <label for="carbon_dioxide">Carbon dioxide</label>
+                </li>
+                <li>
+                    <input type="radio" name="q2" value="nitrogen" id="nitrogen">
+                    <label for="nitrogen">Nitrogen</label>
+                </li>
+                <li>
+                    <input type="radio" name="q2" value="hydrogen" id="hydrogen">
+                    <label for="hydrogen">Hydrogen</label>
+                </li>
+            </ul>
+            <p>3. Which part of the cell is responsible for generating energy?</p>
+            <ul>
+                <li>
+                    <input type="radio" name="q3" value="nucleus" id="nucleus">
+                    <label for="nucleus">Nucleus</label>
+                </li>
+                <li>
+                    <input type="radio" name="q3" value="ribosome" id="ribosome">
+                    <label for="ribosome">Ribosome</label>
+                </li>
+                <li>
+                    <input type="radio" name="q3" value="mitochondria" id="mitochondria">
+                    <label for="mitochondria">Mitochondria</label>
+                </li>
+                <li>
+                    <input type="radio" name="q3" value="cytoplasm" id="cytoplasm">
+                    <label for="cytoplasm">Cytoplasm</label>
+                </li>
+            </ul>
+            <p>4. Which part of the atom has a positive charge?</p>
+            <ul>
+                <li>
+                    <input type="radio" name="q4" value="electron" id="electron">
+                    <label for="electron">Electron</label>
+                </li>
+                <li>
+                    <input type="radio" name="q4" value="neutron" id="neutron">
+                    <label for="neutron">Neutron</label>
+                </li>
+                <li>
+                    <input type="radio" name="q4" value="proton" id="proton">
+                    <label for="proton">Proton</label>
+                </li>
+                <li>
+                    <input type="radio" name="q4" value="nucleus" id="nucleus">
+                    <label for="nucleus">Nucleus</label>
+                </li>
+            </ul>
+            <p>5. What is the boiling point of water at sea level?</p>
+            <ul>
+                <li>
+                    <input type="radio" name="q5" value="100C" id="100C">
+                    <label for="100C">100 degrees Celsius</label>
+                </li>
+                <li>
+                    <input type="radio" name="q5" value="0C" id="0C">
+                    <label for="0C">0 degree Celsius</label>
+                </li>
+                <li>
+                    <input type="radio" name="q5" value="212F" id="212F">
+                    <label for="212F">212 degrees Fahrenheit</label>
+                </li>
+                <li>
+                    <input type="radio" name="q5" value="bothAC" id="bothAC">
+                    <label for="bothAC">Both A and C</label>
+                </li>
+            </ul>
+        </div>
+        <div id="Btn">
+        <button onclick="submitAnswers()">Submit</button>
+        </div>
+    </div>
+    <script src="quizApp.js"></script>
+</body>
+</html>

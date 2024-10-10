@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#colorBtn{
+    background: linear-gradient(rgb(32, 32, 32), grey);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(241, 241, 241);
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px black;
+}
+#colorBtn:hover{
+    background: linear-gradient(rgb(53, 53, 53), rgb(151, 150, 150));
+    color: white;
+}
+#clearColor{
+    background: linear-gradient(rgb(32, 32, 32), grey);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(241, 241, 241);
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px black;
+    margin-left: 15px;
+}
+#clearColor:hover{
+    background: linear-gradient(rgb(53, 53, 53), rgb(151, 150, 150));
+    color: white;
+}
+.redBG{
+    background: linear-gradient(rgb(102, 13, 13), rgb(87, 9, 9));
+}
+.orangeBG{
+    background: linear-gradient(rgb(189, 87, 19), rgb(182, 101, 35));
+}
+.yellowBG{
+    background: linear-gradient(rgb(214, 203, 39), rgb(212, 212, 85));
+}
+.greenBG{
+    background: linear-gradient(rgb(33, 83, 13), rgb(52, 104, 50));
+}
+.blueBG{
+    background: linear-gradient(rgb(2, 6, 48), rgb(4, 21, 53));
+}
+.violetBG{
+    background: linear-gradient(rgb(52, 0, 73), rgb(88, 23, 90));
+}
